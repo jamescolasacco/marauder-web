@@ -2,18 +2,18 @@
 
 a simple web interface for the esp32 marauder firmware
 
-## what it is
+## what is it
 marauder-web is a lightweight browser ui that talks to an esp32 running **esp32 marauder** over **uart** and lets you...
-send commands to the esp32
-view the live serial output logs in-browser
-save preset commands and use a key
+* send commands to the esp32
+* view the live serial output logs in-browser
+* save preset commands and use a key
 
 it uses the browser’s **web serial api**, so the page can open a serial port directly and read/write to it.
 
 ## requirements
-- an esp32 running **esp32 marauder firmware**
-- usb cable (esp32 ↔ your computer)
-- a **chromium-based browser** (chrome, edge, brave, etc)
+* an esp32 running **esp32 marauder firmware**
+* usb cable (esp32 <-> your computer)
+* a **chromium-based browser** (chrome, edge, brave, etc)
 
 > note: most non-chromium browsers don’t support web serial, so the ui may not work there
 
